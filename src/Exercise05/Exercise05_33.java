@@ -6,8 +6,10 @@
 * E-mail: 20cs032@charusat.edu.in
 * ID 20CS032 */
 
+package Exercise05;
 import java.util.Date;
 import java.text.SimpleDateFormat;
+
 public class Exercise05_33 {
 	
     public static void main(String[] args) {
@@ -19,9 +21,9 @@ public class Exercise05_33 {
     //date output format in given program
     SimpleDateFormat sdf = new SimpleDateFormat(mydateFormat);
 	
-	//print output date format
+    //print output date format
     System.out.println("Current date and time is " + sdf.format(date));
-}
+  }
 }
 
 /*Output
